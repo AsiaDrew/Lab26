@@ -1,0 +1,49 @@
+.remove {
+    float: right;
+}
+
+div {
+    font-family: 'Lucida Grande', Verdana, sans-serif;
+    font-weight: 300;
+    width:70%;
+    margin-left: 15%;
+    padding:1%;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); 
+}
+
+body {
+    background: linear-gradient(to right, #57f8f5, #045e12 );
+    height: 100vw;
+    margin: -8px;
+    padding-top: 2%;
+    overflow: hidden;
+}
+
+.completeButton{
+    border: solid;
+    border-radius: 7px;
+    color: black;
+    padding: 3px 10px;
+    margin: 0 0 0 3px;
+}
+
+.addTodoButton{
+    background-color: #097a3f;
+    width: 100%;
+    padding: 3px 10px;
+    border: none;
+}
+
+.addTodoButton:hover {
+    background: linear-gradient(to right, #57f8f5, #045e12 );
+  }
+
+  .completeButton:hover {
+    background: linear-gradient(to right, #6aeeec, #55bd64 );
+  }
+
+.inputBar{
+    padding-right:0;
+    min-width:99%;
+}
